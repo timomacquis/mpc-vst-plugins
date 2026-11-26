@@ -6,7 +6,16 @@
   "kind": "instrument",
   "license": "MIT AND LicenseRef-Patternarium",
   "source_available": true,
-  "summary": "A Microtonic-inspired drum machine. πToniC features 8 independent drum voices, each combining filtered noise with a morphing oscillator or WAV sample playback. Its sound engine includes pitch modulation, amplitude envelopes, drive, EQ and individual voice controls. Shared stereo reverb and tempo-synced delay complete the engine.",
+  "summary": πToniC is an 8-voice drum machine for Akai Force and MPC, inspired by Microtonic.
+Each voice blends filtered noise with one of three sources:
+
+SYNTH: an oscillator that morphs from sine to square;
+WAVETABLE (new in 1.2.0): 8 tables, scanned from POS to END on every hit;
+SAMPLE: WAV playback.
+
+Per voice: pitch modulation, envelopes, drive, EQ, A/B compare, RAND and ALTER; then reverb and delay, classic or extended (Tidal Verb, Dub Station).
+It ships with the 150 Patternarium BEST kits, converted from Microtonic, and can import any Microtonic .mtpreset kit.
+πClideaN, its MIDI sequencer companion, holds the same 150 kits with their A+B patterns: load the same number in both and you get the full kit and its groove..",
   "style": "drum-machine",
   "tags": [
     "drum-machine",
